@@ -56,7 +56,7 @@ class Comment(db.Model):
     text = db.Column(db.String(2000), nullable=False)
 
 
-db.create_all()
+# db.create_all()
 
 
 # Decorator that requires admin rights (user.id = 1) or else throws a custom 403.
